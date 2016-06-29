@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA438C99816483AA3CBC0301 /* Pods_TPUIAddition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DFDB575FF4EF44F83B8538 /* Pods_TPUIAddition.framework */; };
+		F241715B1D22D63D00405FF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F241715A1D22D63D00405FF0 /* main.m */; };
+		F241715E1D22D63D00405FF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F241715D1D22D63D00405FF0 /* AppDelegate.m */; };
+		F24171611D22D63D00405FF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171601D22D63D00405FF0 /* ViewController.m */; };
+		F24171641D22D63D00405FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24171621D22D63D00405FF0 /* Main.storyboard */; };
+		F24171661D22D63D00405FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24171651D22D63D00405FF0 /* Assets.xcassets */; };
+		F24171691D22D63D00405FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24171671D22D63D00405FF0 /* LaunchScreen.storyboard */; };
+		F24171721D22D6F100405FF0 /* TPUIAddition.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F24171711D22D6F100405FF0 /* TPUIAddition.podspec */; };
+		F24171791D22D7FB00405FF0 /* WKWebView+TP_ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171781D22D7FB00405FF0 /* WKWebView+TP_ProgressView.m */; };
+		F24171981D22D80500405FF0 /* CALayer+TP_XibAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F241717B1D22D80500405FF0 /* CALayer+TP_XibAddition.m */; };
+		F24171991D22D80500405FF0 /* UIAlertController+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F241717D1D22D80500405FF0 /* UIAlertController+TPAddition.m */; };
+		F241719A1D22D80500405FF0 /* UIBarButtonItem+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F241717F1D22D80500405FF0 /* UIBarButtonItem+TPAddition.m */; };
+		F241719B1D22D80500405FF0 /* UIButton+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171811D22D80500405FF0 /* UIButton+TPAddition.m */; };
+		F241719C1D22D80500405FF0 /* UIColor+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171831D22D80500405FF0 /* UIColor+TPAddition.m */; };
+		F241719D1D22D80500405FF0 /* UIImage+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171851D22D80500405FF0 /* UIImage+TPAddition.m */; };
+		F241719E1D22D80500405FF0 /* UIImageView+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171871D22D80500405FF0 /* UIImageView+TPAddition.m */; };
+		F241719F1D22D80500405FF0 /* UILabel+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171891D22D80500405FF0 /* UILabel+TPAddition.m */; };
+		F24171A01D22D80500405FF0 /* UITextField+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F241718B1D22D80500405FF0 /* UITextField+TPAddition.m */; };
+		F24171A11D22D80500405FF0 /* UITextView+TP_PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F241718D1D22D80500405FF0 /* UITextView+TP_PlaceHolder.m */; };
+		F24171A21D22D80500405FF0 /* UIView+TP_ManualLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F241718F1D22D80500405FF0 /* UIView+TP_ManualLayout.m */; };
+		F24171A31D22D80500405FF0 /* UIView+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171911D22D80500405FF0 /* UIView+TPAddition.m */; };
+		F24171A41D22D80500405FF0 /* UIViewController+TP_Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171931D22D80500405FF0 /* UIViewController+TP_Keyboard.m */; };
+		F24171A51D22D80500405FF0 /* UIViewController+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171951D22D80500405FF0 /* UIViewController+TPAddition.m */; };
+		F24171A61D22D80500405FF0 /* UIWindow+TPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F24171971D22D80500405FF0 /* UIWindow+TPAddition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55DFDB575FF4EF44F83B8538 /* Pods_TPUIAddition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPUIAddition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F452E427D4C8D043BD6BAE2 /* Pods-TPUIAddition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPUIAddition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPUIAddition/Pods-TPUIAddition.debug.xcconfig"; sourceTree = "<group>"; };
+		F24171561D22D63D00405FF0 /* TPUIAddition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPUIAddition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F241715A1D22D63D00405FF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F241715C1D22D63D00405FF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F241715D1D22D63D00405FF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F241715F1D22D63D00405FF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F24171601D22D63D00405FF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F24171631D22D63D00405FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F24171651D22D63D00405FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24171681D22D63D00405FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F241716A1D22D63D00405FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24171711D22D6F100405FF0 /* TPUIAddition.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TPUIAddition.podspec; path = ../TPUIAddition.podspec; sourceTree = "<group>"; };
+		F24171741D22D7C200405FF0 /* TPUIAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPUIAddition.h; sourceTree = "<group>"; };
+		F24171771D22D7FB00405FF0 /* WKWebView+TP_ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+TP_ProgressView.h"; sourceTree = "<group>"; };
+		F24171781D22D7FB00405FF0 /* WKWebView+TP_ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+TP_ProgressView.m"; sourceTree = "<group>"; };
+		F241717A1D22D80500405FF0 /* CALayer+TP_XibAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+TP_XibAddition.h"; sourceTree = "<group>"; };
+		F241717B1D22D80500405FF0 /* CALayer+TP_XibAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TP_XibAddition.m"; sourceTree = "<group>"; };
+		F241717C1D22D80500405FF0 /* UIAlertController+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+TPAddition.h"; sourceTree = "<group>"; };
+		F241717D1D22D80500405FF0 /* UIAlertController+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+TPAddition.m"; sourceTree = "<group>"; };
+		F241717E1D22D80500405FF0 /* UIBarButtonItem+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TPAddition.h"; sourceTree = "<group>"; };
+		F241717F1D22D80500405FF0 /* UIBarButtonItem+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TPAddition.m"; sourceTree = "<group>"; };
+		F24171801D22D80500405FF0 /* UIButton+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TPAddition.h"; sourceTree = "<group>"; };
+		F24171811D22D80500405FF0 /* UIButton+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TPAddition.m"; sourceTree = "<group>"; };
+		F24171821D22D80500405FF0 /* UIColor+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TPAddition.h"; sourceTree = "<group>"; };
+		F24171831D22D80500405FF0 /* UIColor+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TPAddition.m"; sourceTree = "<group>"; };
+		F24171841D22D80500405FF0 /* UIImage+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TPAddition.h"; sourceTree = "<group>"; };
+		F24171851D22D80500405FF0 /* UIImage+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TPAddition.m"; sourceTree = "<group>"; };
+		F24171861D22D80500405FF0 /* UIImageView+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TPAddition.h"; sourceTree = "<group>"; };
+		F24171871D22D80500405FF0 /* UIImageView+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TPAddition.m"; sourceTree = "<group>"; };
+		F24171881D22D80500405FF0 /* UILabel+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TPAddition.h"; sourceTree = "<group>"; };
+		F24171891D22D80500405FF0 /* UILabel+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TPAddition.m"; sourceTree = "<group>"; };
+		F241718A1D22D80500405FF0 /* UITextField+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TPAddition.h"; sourceTree = "<group>"; };
+		F241718B1D22D80500405FF0 /* UITextField+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TPAddition.m"; sourceTree = "<group>"; };
+		F241718C1D22D80500405FF0 /* UITextView+TP_PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TP_PlaceHolder.h"; sourceTree = "<group>"; };
+		F241718D1D22D80500405FF0 /* UITextView+TP_PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TP_PlaceHolder.m"; sourceTree = "<group>"; };
+		F241718E1D22D80500405FF0 /* UIView+TP_ManualLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TP_ManualLayout.h"; sourceTree = "<group>"; };
+		F241718F1D22D80500405FF0 /* UIView+TP_ManualLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TP_ManualLayout.m"; sourceTree = "<group>"; };
+		F24171901D22D80500405FF0 /* UIView+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TPAddition.h"; sourceTree = "<group>"; };
+		F24171911D22D80500405FF0 /* UIView+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TPAddition.m"; sourceTree = "<group>"; };
+		F24171921D22D80500405FF0 /* UIViewController+TP_Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TP_Keyboard.h"; sourceTree = "<group>"; };
+		F24171931D22D80500405FF0 /* UIViewController+TP_Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TP_Keyboard.m"; sourceTree = "<group>"; };
+		F24171941D22D80500405FF0 /* UIViewController+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TPAddition.h"; sourceTree = "<group>"; };
+		F24171951D22D80500405FF0 /* UIViewController+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TPAddition.m"; sourceTree = "<group>"; };
+		F24171961D22D80500405FF0 /* UIWindow+TPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TPAddition.h"; sourceTree = "<group>"; };
+		F24171971D22D80500405FF0 /* UIWindow+TPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TPAddition.m"; sourceTree = "<group>"; };
+		F9C97F7AA724AC9CC175CB86 /* Pods-TPUIAddition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPUIAddition.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPUIAddition/Pods-TPUIAddition.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24171531D22D63D00405FF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA438C99816483AA3CBC0301 /* Pods_TPUIAddition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8391E0A7EE031EB943B55453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F452E427D4C8D043BD6BAE2 /* Pods-TPUIAddition.debug.xcconfig */,
+				F9C97F7AA724AC9CC175CB86 /* Pods-TPUIAddition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E420A5E1B4DEE6FDC56490D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DFDB575FF4EF44F83B8538 /* Pods_TPUIAddition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F241714D1D22D63D00405FF0 = {
+			isa = PBXGroup;
+			children = (
+				F24171701D22D6DA00405FF0 /* Podspec Metadata */,
+				F24171731D22D79200405FF0 /* TPUIAddition */,
+				F24171581D22D63D00405FF0 /* TPUIAdditionDemo */,
+				F24171571D22D63D00405FF0 /* Products */,
+				8391E0A7EE031EB943B55453 /* Pods */,
+				E420A5E1B4DEE6FDC56490D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F24171571D22D63D00405FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24171561D22D63D00405FF0 /* TPUIAddition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24171581D22D63D00405FF0 /* TPUIAdditionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F241715C1D22D63D00405FF0 /* AppDelegate.h */,
+				F241715D1D22D63D00405FF0 /* AppDelegate.m */,
+				F241715F1D22D63D00405FF0 /* ViewController.h */,
+				F24171601D22D63D00405FF0 /* ViewController.m */,
+				F24171621D22D63D00405FF0 /* Main.storyboard */,
+				F24171651D22D63D00405FF0 /* Assets.xcassets */,
+				F24171671D22D63D00405FF0 /* LaunchScreen.storyboard */,
+				F241716A1D22D63D00405FF0 /* Info.plist */,
+				F24171591D22D63D00405FF0 /* Supporting Files */,
+			);
+			path = TPUIAdditionDemo;
+			sourceTree = "<group>";
+		};
+		F24171591D22D63D00405FF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F241715A1D22D63D00405FF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F24171701D22D6DA00405FF0 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				F24171711D22D6F100405FF0 /* TPUIAddition.podspec */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F24171731D22D79200405FF0 /* TPUIAddition */ = {
+			isa = PBXGroup;
+			children = (
+				F24171741D22D7C200405FF0 /* TPUIAddition.h */,
+				F24171751D22D7EB00405FF0 /* UIKit */,
+				F24171761D22D7EB00405FF0 /* WebKit */,
+			);
+			name = TPUIAddition;
+			path = ../TPUIAddition;
+			sourceTree = "<group>";
+		};
+		F24171751D22D7EB00405FF0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F241717A1D22D80500405FF0 /* CALayer+TP_XibAddition.h */,
+				F241717B1D22D80500405FF0 /* CALayer+TP_XibAddition.m */,
+				F241717C1D22D80500405FF0 /* UIAlertController+TPAddition.h */,
+				F241717D1D22D80500405FF0 /* UIAlertController+TPAddition.m */,
+				F241717E1D22D80500405FF0 /* UIBarButtonItem+TPAddition.h */,
+				F241717F1D22D80500405FF0 /* UIBarButtonItem+TPAddition.m */,
+				F24171801D22D80500405FF0 /* UIButton+TPAddition.h */,
+				F24171811D22D80500405FF0 /* UIButton+TPAddition.m */,
+				F24171821D22D80500405FF0 /* UIColor+TPAddition.h */,
+				F24171831D22D80500405FF0 /* UIColor+TPAddition.m */,
+				F24171841D22D80500405FF0 /* UIImage+TPAddition.h */,
+				F24171851D22D80500405FF0 /* UIImage+TPAddition.m */,
+				F24171861D22D80500405FF0 /* UIImageView+TPAddition.h */,
+				F24171871D22D80500405FF0 /* UIImageView+TPAddition.m */,
+				F24171881D22D80500405FF0 /* UILabel+TPAddition.h */,
+				F24171891D22D80500405FF0 /* UILabel+TPAddition.m */,
+				F241718A1D22D80500405FF0 /* UITextField+TPAddition.h */,
+				F241718B1D22D80500405FF0 /* UITextField+TPAddition.m */,
+				F241718C1D22D80500405FF0 /* UITextView+TP_PlaceHolder.h */,
+				F241718D1D22D80500405FF0 /* UITextView+TP_PlaceHolder.m */,
+				F241718E1D22D80500405FF0 /* UIView+TP_ManualLayout.h */,
+				F241718F1D22D80500405FF0 /* UIView+TP_ManualLayout.m */,
+				F24171901D22D80500405FF0 /* UIView+TPAddition.h */,
+				F24171911D22D80500405FF0 /* UIView+TPAddition.m */,
+				F24171921D22D80500405FF0 /* UIViewController+TP_Keyboard.h */,
+				F24171931D22D80500405FF0 /* UIViewController+TP_Keyboard.m */,
+				F24171941D22D80500405FF0 /* UIViewController+TPAddition.h */,
+				F24171951D22D80500405FF0 /* UIViewController+TPAddition.m */,
+				F24171961D22D80500405FF0 /* UIWindow+TPAddition.h */,
+				F24171971D22D80500405FF0 /* UIWindow+TPAddition.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F24171761D22D7EB00405FF0 /* WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				F24171771D22D7FB00405FF0 /* WKWebView+TP_ProgressView.h */,
+				F24171781D22D7FB00405FF0 /* WKWebView+TP_ProgressView.m */,
+			);
+			path = WebKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24171551D22D63D00405FF0 /* TPUIAddition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F241716D1D22D63D00405FF0 /* Build configuration list for PBXNativeTarget "TPUIAddition" */;
+			buildPhases = (
+				48D281ADFC0B2D0FB263F128 /* [CP] Check Pods Manifest.lock */,
+				F24171521D22D63D00405FF0 /* Sources */,
+				F24171531D22D63D00405FF0 /* Frameworks */,
+				F24171541D22D63D00405FF0 /* Resources */,
+				6EC584DC82CA6DE7CE8855C5 /* [CP] Embed Pods Frameworks */,
+				825794E40F9A43BC0BC6F36B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPUIAddition;
+			productName = TPUIAddition;
+			productReference = F24171561D22D63D00405FF0 /* TPUIAddition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F241714E1D22D63D00405FF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TP;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CoderTPeng;
+				TargetAttributes = {
+					F24171551D22D63D00405FF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F24171511D22D63D00405FF0 /* Build configuration list for PBXProject "TPUIAddition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F241714D1D22D63D00405FF0;
+			productRefGroup = F24171571D22D63D00405FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24171551D22D63D00405FF0 /* TPUIAddition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24171541D22D63D00405FF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24171691D22D63D00405FF0 /* LaunchScreen.storyboard in Resources */,
+				F24171661D22D63D00405FF0 /* Assets.xcassets in Resources */,
+				F24171721D22D6F100405FF0 /* TPUIAddition.podspec in Resources */,
+				F24171641D22D63D00405FF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48D281ADFC0B2D0FB263F128 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EC584DC82CA6DE7CE8855C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPUIAddition/Pods-TPUIAddition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825794E40F9A43BC0BC6F36B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPUIAddition/Pods-TPUIAddition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24171521D22D63D00405FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F241719F1D22D80500405FF0 /* UILabel+TPAddition.m in Sources */,
+				F24171A11D22D80500405FF0 /* UITextView+TP_PlaceHolder.m in Sources */,
+				F24171A51D22D80500405FF0 /* UIViewController+TPAddition.m in Sources */,
+				F24171A31D22D80500405FF0 /* UIView+TPAddition.m in Sources */,
+				F24171611D22D63D00405FF0 /* ViewController.m in Sources */,
+				F24171A61D22D80500405FF0 /* UIWindow+TPAddition.m in Sources */,
+				F24171A01D22D80500405FF0 /* UITextField+TPAddition.m in Sources */,
+				F24171981D22D80500405FF0 /* CALayer+TP_XibAddition.m in Sources */,
+				F241719C1D22D80500405FF0 /* UIColor+TPAddition.m in Sources */,
+				F241715E1D22D63D00405FF0 /* AppDelegate.m in Sources */,
+				F241715B1D22D63D00405FF0 /* main.m in Sources */,
+				F241719A1D22D80500405FF0 /* UIBarButtonItem+TPAddition.m in Sources */,
+				F241719B1D22D80500405FF0 /* UIButton+TPAddition.m in Sources */,
+				F24171991D22D80500405FF0 /* UIAlertController+TPAddition.m in Sources */,
+				F24171A41D22D80500405FF0 /* UIViewController+TP_Keyboard.m in Sources */,
+				F24171791D22D7FB00405FF0 /* WKWebView+TP_ProgressView.m in Sources */,
+				F241719E1D22D80500405FF0 /* UIImageView+TPAddition.m in Sources */,
+				F241719D1D22D80500405FF0 /* UIImage+TPAddition.m in Sources */,
+				F24171A21D22D80500405FF0 /* UIView+TP_ManualLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F24171621D22D63D00405FF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24171631D22D63D00405FF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24171671D22D63D00405FF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24171681D22D63D00405FF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F241716B1D22D63D00405FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F241716C1D22D63D00405FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F241716E1D22D63D00405FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F452E427D4C8D043BD6BAE2 /* Pods-TPUIAddition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPUIAdditionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpeng.TPUIAddition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F241716F1D22D63D00405FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C97F7AA724AC9CC175CB86 /* Pods-TPUIAddition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TPUIAdditionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpeng.TPUIAddition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24171511D22D63D00405FF0 /* Build configuration list for PBXProject "TPUIAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F241716B1D22D63D00405FF0 /* Debug */,
+				F241716C1D22D63D00405FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F241716D1D22D63D00405FF0 /* Build configuration list for PBXNativeTarget "TPUIAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F241716E1D22D63D00405FF0 /* Debug */,
+				F241716F1D22D63D00405FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F241714E1D22D63D00405FF0 /* Project object */;
+}
